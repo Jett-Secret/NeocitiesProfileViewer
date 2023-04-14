@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "Neocities Profile",
+  "version": "1.0",
+
+  "description": "Adds a browser action icon to the toolbar. Click the button to choose a beast. The active tab's body content is then replaced with a picture of the chosen beast. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#beastify",
+  
+  "icons": {
+    "48": "icons/neocities.ico"
+  },
+  
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["neocitiesButton.js"]
+    }
+  ,
+  "browser_action": {
+  "browser_style": true,
+  "default_icon": {
+    "16": "icons/neocities.ico",
+    "32": "icons/neocities.ico"
+  },
+  "default_title": "Whereami?",
+  "theme_icons": [{
+    "light": "icons/neocities.ico",
+    "dark": "icons/neocities.ico",
+    "size": 16
+  }, {
+    "light": "icons/neocities.ico",
+    "dark": "icons/neocities.ico",
+    "size": 32
+  }]
+}
+}
