@@ -1,10 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Neocities Profile",
+  "name": "Neocities Profile Viewer",
   "version": "1.0",
-
-  "description": "Adds a browser action icon to the toolbar. Click the button to choose a beast. The active tab's body content is then replaced with a picture of the chosen beast. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#beastify",
-  
+"description": "Open the profile for any neocities site in a new tab.",
+  "homepage_url": "https://github.com/Jett-Secret/NeocitiesProfileViewer",
   "icons": {
     "48": "icons/neocities.ico"
   },
