@@ -5,7 +5,7 @@
 "description": "Open the profile for any neocities site in a new tab.",
   "homepage_url": "https://github.com/Jett-Secret/NeocitiesProfileViewer",
   "icons": {
-    "48": "icons/neocities.ico"
+    "48": "icons/neocities.png"
   },
   
   "permissions": [
@@ -18,17 +18,17 @@
   "browser_action": {
   "browser_style": true,
   "default_icon": {
-    "16": "icons/neocities.ico",
-    "32": "icons/neocities.ico"
+    "16": "icons/neocities.png",
+    "32": "icons/neocities.png"
   },
   "default_title": "Whereami?",
   "theme_icons": [{
-    "light": "icons/neocities.ico",
-    "dark": "icons/neocities.ico",
+    "light": "icons/neocities.png",
+    "dark": "icons/neocities.png",
     "size": 16
   }, {
-    "light": "icons/neocities.ico",
-    "dark": "icons/neocities.ico",
+    "light": "icons/neocities.png",
+    "dark": "icons/neocities.png",
     "size": 32
   }]
 }
